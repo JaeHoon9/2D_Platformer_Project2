@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 88d52c769a8d87144a3871814cda3c85
+timeCreated: 1541097782
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143852
+  packageName: Pixel Heroes - Minotaur Boss
+  packageVersion: 1.0
+  assetPath: Assets/Pixel Heroes/Example Code/ParticleDestroyer.cs
+  uploadId: 304693

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 74f6d2fc1bf82ce42b2ddacabba2187f
+timeCreated: 1539784982
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143852
+  packageName: Pixel Heroes - Minotaur Boss
+  packageVersion: 1.0
+  assetPath: Assets/Pixel Heroes/Example Code/AnimEventListener.cs
+  uploadId: 304693

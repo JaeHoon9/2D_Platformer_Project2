@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: fc2a90c788950de41843ad7e944d6e86
+timeCreated: 1495228553
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143852
+  packageName: Pixel Heroes - Minotaur Boss
+  packageVersion: 1.0
+  assetPath: Assets/Pixel Heroes/Example Code/Raycast Controller Scripts/RaycastPlayer.cs
+  uploadId: 304693

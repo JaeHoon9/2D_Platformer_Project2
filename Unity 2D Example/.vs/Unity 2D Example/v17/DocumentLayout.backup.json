@@ -1,0 +1,213 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40E02ECF-6CBB-E253-9EF0-0524DB95EF00}|Assembly-CSharp.csproj|c:\\users\\may01\\github\\unity-2d-platformer-project\\unity 2d example\\assets\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E02ECF-6CBB-E253-9EF0-0524DB95EF00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\may01\\github\\unity-2d-platformer-project\\unity 2d example\\assets\\scripts\\playermeleeattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\playermeleeattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E02ECF-6CBB-E253-9EF0-0524DB95EF00}|Assembly-CSharp.csproj|C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\assets\\scripts\\projectilelaunch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E02ECF-6CBB-E253-9EF0-0524DB95EF00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectilelaunch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E02ECF-6CBB-E253-9EF0-0524DB95EF00}|Assembly-CSharp.csproj|C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E02ECF-6CBB-E253-9EF0-0524DB95EF00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E02ECF-6CBB-E253-9EF0-0524DB95EF00}|Assembly-CSharp.csproj|C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\assets\\scripts\\healthpotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E02ECF-6CBB-E253-9EF0-0524DB95EF00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthpotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E02ECF-6CBB-E253-9EF0-0524DB95EF00}|Assembly-CSharp.csproj|C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\assets\\scripts\\manapotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E02ECF-6CBB-E253-9EF0-0524DB95EF00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manapotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E02ECF-6CBB-E253-9EF0-0524DB95EF00}|Assembly-CSharp.csproj|C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E02ECF-6CBB-E253-9EF0-0524DB95EF00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E02ECF-6CBB-E253-9EF0-0524DB95EF00}|Assembly-CSharp.csproj|C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\assets\\scripts\\playerinfomanager..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E02ECF-6CBB-E253-9EF0-0524DB95EF00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinfomanager..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E02ECF-6CBB-E253-9EF0-0524DB95EF00}|Assembly-CSharp.csproj|C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\assets\\scripts\\spellpowerscroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E02ECF-6CBB-E253-9EF0-0524DB95EF00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spellpowerscroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E02ECF-6CBB-E253-9EF0-0524DB95EF00}|Assembly-CSharp.csproj|C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E02ECF-6CBB-E253-9EF0-0524DB95EF00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\may01\\github\\unity-2d-platformer-project\\unity 2d example\\assets\\scripts\\swordswing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\swordswing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\may01\\github\\unity-2d-platformer-project\\unity 2d example\\assets\\scripts\\meleeattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\meleeattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerMove.cs",
+              "DocumentMoniker": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\Assets\\Scripts\\PlayerMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMove.cs",
+              "ToolTip": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\Assets\\Scripts\\PlayerMove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMove.cs",
+              "ViewState": "AgIAABkBAAAAAAAAAAAAACwBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T10:06:57.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MeleeAttack.cs",
+              "DocumentMoniker": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\Assets\\Scripts\\MeleeAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MeleeAttack.cs",
+              "ToolTip": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\Assets\\Scripts\\MeleeAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MeleeAttack.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwDUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T09:59:34.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SwordSwing.cs",
+              "DocumentMoniker": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\Assets\\Scripts\\SwordSwing.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SwordSwing.cs",
+              "ToolTip": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\Assets\\Scripts\\SwordSwing.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SwordSwing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T09:38:00.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerMeleeAttack.cs",
+              "DocumentMoniker": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\Assets\\Scripts\\PlayerMeleeAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMeleeAttack.cs",
+              "ToolTip": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\Assets\\Scripts\\PlayerMeleeAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMeleeAttack.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAQwDsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T09:37:14.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProjectileLaunch.cs",
+              "DocumentMoniker": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\Assets\\Scripts\\ProjectileLaunch.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ProjectileLaunch.cs",
+              "ToolTip": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\Assets\\Scripts\\ProjectileLaunch.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ProjectileLaunch.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAQwHEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T07:49:46.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Projectile.cs",
+              "DocumentMoniker": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\Assets\\Scripts\\Projectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Projectile.cs",
+              "ToolTip": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\Assets\\Scripts\\Projectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Projectile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T07:49:38.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HealthPotion.cs",
+              "DocumentMoniker": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\Assets\\Scripts\\HealthPotion.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HealthPotion.cs",
+              "ToolTip": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\Assets\\Scripts\\HealthPotion.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HealthPotion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T11:57:11.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManaPotion.cs",
+              "DocumentMoniker": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\Assets\\Scripts\\ManaPotion.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ManaPotion.cs",
+              "ToolTip": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\Assets\\Scripts\\ManaPotion.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ManaPotion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T11:56:01.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T11:54:49.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerInfoManager..cs",
+              "DocumentMoniker": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\Assets\\Scripts\\PlayerInfoManager..cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInfoManager..cs",
+              "ToolTip": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\Assets\\Scripts\\PlayerInfoManager..cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerInfoManager..cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAQwAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T11:54:00.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SpellPowerScroll.cs",
+              "DocumentMoniker": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\Assets\\Scripts\\SpellPowerScroll.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpellPowerScroll.cs",
+              "ToolTip": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\Assets\\Scripts\\SpellPowerScroll.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpellPowerScroll.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBYAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T11:53:44.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\Assets\\Scripts\\Item.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Item.cs",
+              "ToolTip": "C:\\Users\\may01\\GitHub\\Unity-2D-Platformer-Project\\Unity 2D Example\\Assets\\Scripts\\Item.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T11:50:20.735Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

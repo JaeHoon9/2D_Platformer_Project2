@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e5f5be2a190bd8345ac711474b39682a
+timeCreated: 1501614036
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: -1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143852
+  packageName: Pixel Heroes - Minotaur Boss
+  packageVersion: 1.0
+  assetPath: Assets/Pixel Heroes/Minotaur Boss/Animations/Minotaur-Controller.controller
+  uploadId: 304693

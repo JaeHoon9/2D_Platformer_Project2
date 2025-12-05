@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 5c7ee270c18808547ad0cd7f0bf1fd15
+timeCreated: 1510796026
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143852
+  packageName: Pixel Heroes - Minotaur Boss
+  packageVersion: 1.0
+  assetPath: Assets/Pixel Heroes/Minotaur Boss/Animations/Minotaur-Idle.anim
+  uploadId: 304693

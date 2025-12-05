@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7bb340ac912d87d4d964becd2e968450
+timeCreated: 1510797374
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143852
+  packageName: Pixel Heroes - Minotaur Boss
+  packageVersion: 1.0
+  assetPath: Assets/Pixel Heroes/Minotaur Boss/Animations/Minotaur-Stomp.anim
+  uploadId: 304693
