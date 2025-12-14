@@ -4,8 +4,7 @@ public class Projectile : MonoBehaviour
 {
     public Rigidbody2D projectileRb;
     public float speed;
-    public int damageToDeal; // ★ 여기에 데미지를 저장할 변수 추가
-
+    public int damageToDeal;
     public float projectileLife;
     public float projectileCount;
 
@@ -15,11 +14,14 @@ public class Projectile : MonoBehaviour
     void Start()
     {
         projectileCount = projectileLife;
-        playerMove = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMove>();
-        facingRight = playerMove.facingRight;
-        if (!facingRight)
+        if (GameObject.FindGameObjectWithTag("Player") != null)
         {
-            transform.rotation = Quaternion.Euler(0, 180, 0);
+            playerMove = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMove>();
+            facingRight = playerMove.facingRight;
+            if (!facingRight)
+            {
+                transform.rotation = Quaternion.Euler(0, 180, 0);
+            }
         }
     }
 
@@ -35,34 +37,39 @@ public class Projectile : MonoBehaviour
     private void FixedUpdate()
     {
         if (facingRight)
-        {
             projectileRb.linearVelocity = new Vector2(speed, projectileRb.linearVelocity.y);
-        }
         else
-        {
             projectileRb.linearVelocity = new Vector2(-speed, projectileRb.linearVelocity.y);
-        }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        // 부딪힌 게 "Trigger(시야 범위)"라면 그냥 무시하고 통과
+        if (collision.isTrigger && !collision.CompareTag("Platform")) return;
+
+        if (collision.CompareTag("Enemy"))
         {
-            EnemyMove enemy = collision.gameObject.GetComponent<EnemyMove>();
-            if (enemy != null)
+            MinotaurBoss boss = collision.GetComponent<MinotaurBoss>();
+
+            if (boss != null)
             {
-                // int damageAmount = 30; // ★ 기존의 고정값 30을 지우고
-                Vector2 hitPosition = transform.position;
-                // ★ public 변수인 damageToDeal을 사용
-                enemy.OnDamaged(damageToDeal, hitPosition);
+                // 돌진 중이면 데미지 X, 파괴 O
+                if (boss.isSuperArmor)
+                {
+                    Destroy(gameObject);
+                    return;
+                }
+                boss.TakeDamage(damageToDeal);
+                Destroy(gameObject);
             }
-            Destroy(gameObject);
+            else
+            {
+                EnemyMove enemy = collision.GetComponent<EnemyMove>();
+                if (enemy != null) enemy.OnDamaged(damageToDeal, transform.position);
+                Destroy(gameObject);
+            }
         }
-        else if (collision.gameObject.CompareTag("Player"))
-        {
-            return;
-        }
-        else
+        else if (collision.gameObject.layer == LayerMask.NameToLayer("Platform") || collision.CompareTag("Platform"))
         {
             Destroy(gameObject);
         }

@@ -10,6 +10,7 @@ TagManager:
   - ManaSprite
   - HealthSprite
   - DeadZone
+  - Projectile
   layers:
   - Default
   - TransparentFX

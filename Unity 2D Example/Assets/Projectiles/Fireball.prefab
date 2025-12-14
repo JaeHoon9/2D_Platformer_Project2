@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -8256802525674051118}
   m_Layer: 10
   m_Name: Fireball
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121,7 +121,7 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -169,6 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileRb: {fileID: 1733057725521647597}
   speed: 6
+  damageToDeal: 0
   projectileLife: 2
   projectileCount: 0
   playerMove: {fileID: 0}
