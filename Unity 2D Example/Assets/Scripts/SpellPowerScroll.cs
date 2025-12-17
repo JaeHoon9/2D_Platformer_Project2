@@ -25,7 +25,7 @@ public class SpellPowerScroll : Item // Item 클래스 상속
         }
         else
         {
-            Debug.LogError("ManaSystem.Instance (or PlayerStats.Instance)를 찾을 수 없습니다! 플레이어에 ManaSystem 스크립트가 붙어있나요?");
+            Debug.LogError("ManaSystem.Instance (or PlayerStats.Instance)를 찾을 수 없습니다!");
         }
     }
 }

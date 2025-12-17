@@ -29,7 +29,7 @@ public class HealthPotion : Item // Item 클래스 상속
         }
         else
         {
-            Debug.LogError("HealthSystem.Instance를 찾을 수 없습니다! 플레이어에 HealthSystem 스크립트가 붙어있나요?");
+            Debug.LogError("HealthSystem.Instance를 찾을 수 없습니다!");
         }
     }
 }

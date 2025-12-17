@@ -253,23 +253,13 @@ public class PlayerMove : MonoBehaviour
         spriteRenderer.color = new Color(1, 1, 1, 1); 
     }
 
-    /// <summary>
     /// 근접 공격 투사체를 발사합니다.
-    /// </summary>
     void PerformMeleeAttack()
     {
-        // 1. 스폰 위치 계산 (높이 오프셋 적용)
         Vector3 spawnPosition = transform.position + new Vector3(0, attackVerticalOffset, 0);
 
-        // ▼▼▼ 2. 이 부분이 수정되었습니다 ▼▼▼
-        // 방향(Rotation)을 계산할 필요 없이, 'Quaternion.identity'로 생성합니다.
-        // MeleeProjectile 스크립트가 Start()에서 스스로 방향을 찾습니다.
         Instantiate(meleeProjectilePrefab, spawnPosition, Quaternion.identity);
 
-        // 3. 넉백 위치 전달 로직 삭제 (투사체가 스스로 함)
-        // GameObject projectile = ...
-        // MeleeProjectile projectileScript = ...
-        // projectileScript.SetAttackerPosition(...); // <- 이 부분들 전부 삭제
     }
 
     public void OnDeath() 

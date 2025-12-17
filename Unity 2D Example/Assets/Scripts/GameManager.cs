@@ -84,7 +84,7 @@ public class GameManager : MonoBehaviour
     {
         if (player != null) // null 체크 추가
         {
-            player.transform.position = new Vector3(0, 0, -1); // 플레이어 시작 위치 (조절 필요)
+            player.transform.position = new Vector3(0, 0, -1); // 플레이어 시작 위치
             player.VelocityZero();
         }
     }

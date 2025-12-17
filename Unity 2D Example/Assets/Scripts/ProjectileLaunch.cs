@@ -13,26 +13,24 @@ public class ProjectileLaunch : MonoBehaviour
     private ManaSystem mana;
 
     [Header("Charging System")]
-    public float fullChargeDuration = 2.0f;
+    public float fullChargeDuration = 1.0f;
 
     [Header("Normal Shot")]
     public int normalManaCost = 30;
     public float normalSpeed = 10f;
-    public int normalDamage = 30;           // ★ 일반 샷 데미지 변수 추가
+    public int normalDamage = 10;           // 일반 샷 데미지
 
     [Header("Charged Shot")]
     public int chargedManaCost = 40;
     public float chargedSpeed = 15f;
     public float chargedScale = 3.0f;
-    public int chargedDamage = 100;         // ★ 차징 샷 데미지 변수 추가 (원하는 값으로)
+    public int chargedDamage = 20;         // 차징 샷 데미지
 
     public Slider chargingBar;
     public Vector3 chargeBarOffset;
 
     private bool isCharging = false;
     private float currentChargeTime = 0f;
-
-    // ... (Start, Update, UpdateChargingBar, ResetCharging 함수는 수정 없음) ...
 
     void Start()
     {
@@ -95,7 +93,6 @@ public class ProjectileLaunch : MonoBehaviour
         chargingBar.transform.position = screenPos;
     }
 
-    // [★수정된 발사 함수★]
     void Launch()
     {
         GameObject newProjectile = Instantiate(projectilePrefab, launchPoint.position, Quaternion.identity);
@@ -107,7 +104,7 @@ public class ProjectileLaunch : MonoBehaviour
         {
             newProjectile.transform.localScale *= chargedScale;
             projectileScript.speed = chargedSpeed;
-            projectileScript.damageToDeal = chargedDamage; // ★ 차징 데미지 전달
+            projectileScript.damageToDeal = chargedDamage; // 차징 데미지 전달
 
             mana.manaPoint -= chargedManaCost;
         }
@@ -115,7 +112,7 @@ public class ProjectileLaunch : MonoBehaviour
         else
         {
             projectileScript.speed = normalSpeed;
-            projectileScript.damageToDeal = normalDamage; // ★ 일반 데미지 전달
+            projectileScript.damageToDeal = normalDamage; // 일반 데미지 전달
 
             mana.manaPoint -= normalManaCost;
         }
